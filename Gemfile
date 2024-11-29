@@ -9,6 +9,7 @@ gem "pg", "~> 1.1"
 gem "puma", ">= 5.0"
 gem "turbo-rails"
 gem "stimulus-rails"
+gem "tailwindcss-rails", "~> 3.0"
 
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
@@ -23,4 +24,5 @@ end
 group :development do
   gem "web-console"
 end
+
 
