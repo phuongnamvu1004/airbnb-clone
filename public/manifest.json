@@ -1,0 +1,7 @@
+{
+    "short_name": "airbnb-clone",
+    "name": "Airbnb Clone",
+    "icons": [],
+    "start_url": "/",
+    "display": "standalone"
+}
