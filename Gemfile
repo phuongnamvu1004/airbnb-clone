@@ -2,6 +2,7 @@ source "https://rubygems.org"
 
 gem "bootsnap", require: false
 gem 'devise', '~> 4.9', '>= 4.9.3'
+gem 'faker'
 gem "importmap-rails"
 gem "jbuilder"
 gem "rails", "~> 7.2.2"
