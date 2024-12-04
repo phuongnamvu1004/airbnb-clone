@@ -1,5 +1,4 @@
 class Property < ApplicationRecord
-
     # name, headline, description, address_1, address_2
     validates :name, presence: :true
     validates :headline, presence: :true
@@ -10,4 +9,5 @@ class Property < ApplicationRecord
     validates :country, presence: :true
 
     monetize :price_cents, allow_nil: true
+    has_many_attached :images
 end
