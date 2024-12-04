@@ -1,10 +1,11 @@
 source "https://rubygems.org"
 
 gem "bootsnap", require: false
-gem 'devise', '~> 4.9', '>= 4.9.3'
-gem 'faker'
+gem "devise", "~> 4.9", ">= 4.9.3"
+gem "faker"
 gem "importmap-rails"
 gem "jbuilder"
+gem "money-rails", "~> 1.12"
 gem "rails", "~> 7.2.2"
 gem "sprockets-rails"
 gem "pg", "~> 1.1"
